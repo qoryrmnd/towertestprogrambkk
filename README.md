@@ -21,8 +21,9 @@ Aplikasi kalibrasi sensor beban (load cell) berbasis Windows Forms untuk keperlu
 
 - Windows 10 / 11
 - .NET Framework 4.7.2 atau lebih tinggi
-- RAM 2GB+
+- RAM 4GB+
 - Port USB/Serial aktif untuk koneksi alat
+- Port LAN
 
 ---
 
@@ -60,3 +61,15 @@ Setiap aplikasi dijalankan, akan dicek apakah versi terbaru tersedia dari:
 /Models             # Struktur data (jika ada)
 /Export             # Fungsi ekspor PDF
 /Update             # Logika update otomatis
+
+## 🤝 Kontribusi
+Pull request dan issue sangat terbuka.
+Jika ingin ikut berkontribusi atau menambahkan fitur baru, silakan fork dan kirim PR.
+
+---
+
+## 📃 Lisensi
+MIT License © 2025 Qory Rohman Dewa
+Bebas digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
+
+---
