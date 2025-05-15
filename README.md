@@ -2,8 +2,6 @@
 
 Aplikasi kalibrasi sensor beban (load cell) berbasis Windows Forms untuk keperluan pengujian tower dan alat uji lainnya. Menyediakan fitur pembacaan sensor Master & Slave, grafik pembanding, dan ekspor hasil ke PDF.
 
-![Screenshot Aplikasi](screenshot.png) <!-- tambahkan jika ada -->
-
 ---
 
 ## 🔧 Fitur Utama
