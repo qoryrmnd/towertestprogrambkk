@@ -55,16 +55,15 @@ The app supports **structured PDF exports**, ideal for documentation or certific
 
 ---
 
-## 📃 License
-
-MIT License © 2025 **Qory Rohman Dewa**  
-Free to use, modify, and distribute for both personal and commercial projects.
-
----
-
 ## 📫 Contact
 
 For support, collaboration, or feedback, feel free to open an issue or contact me directly.
+
+---
+
+## 📃 License
+
+MIT License © 2025 **Qory Rohman Dewa**  
 
 ---
 
