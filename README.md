@@ -55,12 +55,13 @@ Setiap aplikasi dijalankan, akan dicek apakah versi terbaru tersedia dari:
 
 ## 📁 Struktur Proyek (Singkat)
 
-```plaintext
 /Forms              # Semua form Windows
 /Helpers            # Fungsi pembantu
 /Models             # Struktur data (jika ada)
 /Export             # Fungsi ekspor PDF
 /Update             # Logika update otomatis
+
+---
 
 ## 🤝 Kontribusi
 Pull request dan issue sangat terbuka.
@@ -69,7 +70,7 @@ Jika ingin ikut berkontribusi atau menambahkan fitur baru, silakan fork dan kiri
 ---
 
 ## 📃 Lisensi
+
+```plaintext
 MIT License © 2025 Qory Rohman Dewa
 Bebas digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
-
----
