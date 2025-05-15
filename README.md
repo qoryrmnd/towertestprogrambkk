@@ -1,63 +1,70 @@
-# 🏗️ Tower Test Calibration App
+# 🏗️ Tower Test and Calibration Load Cell App
 
-Aplikasi kalibrasi sensor beban (load cell) berbasis Windows Forms untuk keperluan pengujian tower dan alat uji lainnya. Menyediakan fitur pembacaan sensor Master & Slave, grafik pembanding, dan ekspor hasil ke PDF.
-
----
-
-## 🔧 Fitur Utama
-
-- 📊 Visualisasi data Master dan Slave dalam bentuk grafik
-- 📝 Form kalibrasi lengkap dengan range otomatis (otomatis 10 titik)
-- 📤 Ekspor hasil kalibrasi ke PDF (dengan grafik dan tanda tangan)
-- 🌐 Pengecekan versi otomatis & auto-update dari GitHub
-- 🔌 Komunikasi real-time dengan alat via Serial Port
-- 👥 Dukungan multi tahap input kalibrasi (Master1/Slave1 → Master2/Slave2)
+A Windows Forms-based application for **tower testing and load cell calibration**.  
+This software can handle up to **16 ICP DAS M-7016D modules** and provides real-time sensor monitoring, calibration tools, comparison charts, and PDF export functionality.
 
 ---
 
-## 🖥️ Spesifikasi Minimum
+## 🔧 Key Features
 
-- Windows 10 / 11
-- .NET Framework 4.7.2 atau lebih tinggi
-- RAM 4GB+
-- Port USB/Serial aktif untuk koneksi alat
-- Port LAN
-
----
-
-## 🚀 Cara Menggunakan
-
-1. Jalankan `TesTowerApp.exe`
-2. Masukkan nilai `Max Load` → tabel otomatis terisi 10 titik range
-3. Hubungkan alat kalibrasi ke port serial
-4. Klik **Tambah Data** untuk mulai input hasil Master dan Slave
-5. Setelah selesai, ekspor hasilnya ke PDF dengan klik **Export PDF**
-6. Gunakan tombol **Update** untuk memastikan aplikasi selalu versi terbaru
+- 🏗️ Supports up to **6 tower testing cases simultaneously**, with different configurations per case
+- 📊 Real-time **chart visualization** of Master and Slave sensor readings
+- 📝 Automatic 10-point range generation for efficient calibration workflow
+- 📤 **Export calibration results to PDF**, including all values and charts
+- 🔌 **Serial port communication** for real-time data acquisition
+- 🌐 Ready for industrial testing environments with support for multiple modules
 
 ---
 
-## 📦 Instalasi
+## 🖥️ Minimum PC Requirements
 
-Unduh file `.msi` dari [Releases](https://github.com/qoryrmnd/towertestprogrambkk/releases) lalu jalankan untuk instalasi.
-
----
-
-## 🆕 Auto-Update
-
-Setiap aplikasi dijalankan, akan dicek apakah versi terbaru tersedia dari:
-
-- [`version.txt`](https://github.com/qoryrmnd/towertestprogrambkk/blob/main/version.txt)
-- Jika ada versi baru, maka aplikasi akan otomatis mengunduh dan menjalankan installer.
+- Windows 10 or 11
+- .NET Framework 4.7.2 or higher
+- At least 4 GB RAM
+- Active USB/Serial port
+- LAN Port for module communication
 
 ---
 
-## 🤝 Kontribusi
-Pull request dan issue sangat terbuka.
-Jika ingin ikut berkontribusi atau menambahkan fitur baru, silakan fork dan kirim PR.
+## ⚙️ Load Cell Module Specifications (ICP DAS M-7016D)
+
+The **M-7016D** module supports full-bridge strain gauges and includes:
+
+- **2 Analog Input channels**
+- **1 Excitation voltage output channel**
+- **1 Digital Input channel**
+- **4 Digital Output channels**
+
+### Features:
+- Programmable input ranges: ±15 mV, ±50 mV, ±100 mV, ±500 mV, ±1 V, ±2.5 V  
+- Excitation voltage output: 0 ~ +10 V with 40 mA driving efficiency  
+- Digital Outputs can be configured as high/low alarm signals  
+- Communication protocols: **Modbus RTU** and **DCON**  
+- All hardware specs match the ICP DAS **I-7016** module
 
 ---
 
-## 📃 Lisensi
+## 📤 Export and Reporting
 
-MIT License © 2025 Qory Rohman Dewa
-Bebas digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
+The app supports **structured PDF exports**, ideal for documentation or certification purposes. Each exported file includes:
+
+- Case details
+- Master/Slave calibration data
+- Visual charts
+- Signature placeholders
+
+---
+
+## 📃 License
+
+MIT License © 2025 **Qory Rohman Dewa**  
+Free to use, modify, and distribute for both personal and commercial projects.
+
+---
+
+## 📫 Contact
+
+For support, collaboration, or feedback, feel free to open an issue or contact me directly.
+
+---
+
