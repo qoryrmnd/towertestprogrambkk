@@ -63,7 +63,7 @@ For support, collaboration, or feedback, feel free to open an issue or contact m
 
 ## 📃 License
 
-MIT License © 2025 **Qory Rohman Dewa**  
+MIT License © 2025
 
 ---
 
